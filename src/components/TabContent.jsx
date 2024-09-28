@@ -165,15 +165,7 @@ export default function TabsContentComponent() {
               {/* Botones para redirigir al proyecto desplegado y al repositorio con íconos */}
               <div className="flex space-x-4">
                 <a
-                  href="https://your-deployed-project.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-flex items-center"
-                >
-                  <FaExternalLinkAlt className="mr-2" /> View Project
-                </a>
-                <a
-                  href="https://github.com/your-repository-link"
+                  href="https://github.com/eduard165/Internal-Records-Management-System-for-SDI"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded inline-flex items-center"
