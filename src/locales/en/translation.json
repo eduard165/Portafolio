@@ -1,0 +1,18 @@
+{
+    "header": {
+      "title": "Portfolio",
+      "description": "My personal portfolio"
+    },
+    "footer": {
+      "contact": "Contact",
+      "follow": "Follow me"
+    },
+    "content": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "technicalSkills": "Technical Skills",
+      "education": "Education"
+    }
+  }
+  
