@@ -190,7 +190,7 @@ export default function TabsContentComponent() {
               <h3 className="text-xl font-bold mb-2">Personal Project: Note Taking App</h3>
               <p><strong>2024</strong></p>
               <p className="mb-4">
-                I developed a note-taking application using React that allows users to create, edit, delete, archive, and unarchive notes, as well as filter them by categories. The application persists notes in the browser's localStorage and requires no backend. I also deployed the application using Heroku.
+                I developed a note-taking application using React that allows users to create, edit, delete, archive, and unarchive notes, as well as filter them by categories. The application persists notes in the browser s  localStorage and requires no backend. I also deployed the application using Heroku.
               </p>
               <h4 className="font-semibold mb-2">Technologies used:</h4>
               <ul className="list-disc list-inside mb-4">
