@@ -145,8 +145,10 @@ export default function TabsContentComponent() {
           </div>
         )}
 
+
         {activeTab === "projects" && (
           <div>
+            {/* Proyecto 1 */}
             <div>
               <h3 className="text-xl font-bold mb-2">Experience Project: Internal Records Management System for SDI</h3>
               <p><strong>Secretaria de Desarrollo Institucional - 2024</strong></p>
@@ -172,15 +174,60 @@ export default function TabsContentComponent() {
                 >
                   <FaGithub className="mr-2" /> View Repository
                 </a>
+                <a
+                  href="https://internal-records-management-system-for-sdi-unxe.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded inline-flex items-center"
+                >
+                  <FaExternalLinkAlt className="mr-2" /> Live Demo
+                </a>
               </div>
             </div>
 
-            {/* Aquí agregamos el margen vertical */}
+            {/* proyecto 2 */}
+            <div className="mt-8">
+              <h3 className="text-xl font-bold mb-2">Personal Project: Note Taking App</h3>
+              <p><strong>2024</strong></p>
+              <p className="mb-4">
+                I developed a note-taking application using React that allows users to create, edit, delete, archive, and unarchive notes, as well as filter them by categories. The application persists notes in the browser's localStorage and requires no backend. I also deployed the application using Heroku.
+              </p>
+              <h4 className="font-semibold mb-2">Technologies used:</h4>
+              <ul className="list-disc list-inside mb-4">
+                <li>React.js</li>
+                <li>React Bootstrap</li>
+                <li>LocalStorage</li>
+                <li>Heroku</li>
+              </ul>
+
+              {/* Botones para redirigir al proyecto desplegado y al repositorio con íconos */}
+              <div className="flex space-x-4">
+                <a
+                  href="https://github.com/eduard165/note-taking-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded inline-flex items-center"
+                >
+                  <FaGithub className="mr-2" /> View Repository
+                </a>
+                <a
+                  href="https://notes-app-red-sigma.vercel.app/login"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded inline-flex items-center"
+                >
+                  <FaExternalLinkAlt className="mr-2" /> Live Demo
+                </a>
+              </div>
+            </div>
+
+            {/* Proyecto 3 */}
             <div className="mt-8">
               <h3 className="text-xl font-bold mb-2">Experience Project: User Authentication System with FastAPI and JWT</h3>
               <p><strong>2024 - Personal Project</strong></p>
               <p className="mb-4">
-                I developed a user authentication system that securely manages user registration and login processes, utilizing FastAPI and JSON Web Tokens (JWT). The system allows users to register, log in, and obtain secure access tokens to interact with protected API endpoints. MongoDB is used to store user credentials, with encrypted passwords for added security. The project also includes automated testing to ensure the functionality of key authentication features.</p>
+                I developed a user authentication system that securely manages user registration and login processes, utilizing FastAPI and JSON Web Tokens (JWT). The system allows users to register, log in, and obtain secure access tokens to interact with protected API endpoints. MongoDB is used to store user credentials, with encrypted passwords for added security. The project also includes automated testing to ensure the functionality of key authentication features.
+              </p>
               <h4 className="font-semibold mb-2">Technologies used:</h4>
               <ul className="list-disc list-inside mb-4">
                 <li>FastAPI</li>
@@ -191,7 +238,6 @@ export default function TabsContentComponent() {
                 <li>Uvicorn (ASGI server)</li>
               </ul>
 
-              {/* Botones para redirigir al proyecto desplegado y al repositorio con íconos */}
               <div className="flex space-x-4">
                 <a
                   href="https://github.com/eduard165/Sistema-de-Autenticacion-de-Usuarios-con-FastAPI-y-JWT"
@@ -205,6 +251,7 @@ export default function TabsContentComponent() {
             </div>
           </div>
         )}
+
 
       </div>
     </div >
