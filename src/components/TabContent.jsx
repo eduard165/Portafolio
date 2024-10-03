@@ -199,7 +199,11 @@ export default function TabsContentComponent() {
                 <li>LocalStorage</li>
                 <li>Heroku</li>
               </ul>
-
+              <h5 className="font-semibold mb-2">Try with:</h5>
+              <ul className="list-disc list-inside mb-4">
+                <li>user : admin</li>
+                <li>password : admin123</li>
+              </ul>
               {/* Botones para redirigir al proyecto desplegado y al repositorio con íconos */}
               <div className="flex space-x-4">
                 <a
@@ -228,7 +232,7 @@ export default function TabsContentComponent() {
               <p className="mb-4">
                 I developed a user authentication system that securely manages user registration and login processes, utilizing FastAPI and JSON Web Tokens (JWT). The system allows users to register, log in, and obtain secure access tokens to interact with protected API endpoints. MongoDB is used to store user credentials, with encrypted passwords for added security. The project also includes automated testing to ensure the functionality of key authentication features.
               </p>
-              <h4 className="font-semibold mb-2">Technologies used:</h4>
+              <h6 className="font-semibold mb-2">Technologies used:</h6>
               <ul className="list-disc list-inside mb-4">
                 <li>FastAPI</li>
                 <li>MongoDB</li>
