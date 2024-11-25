@@ -253,6 +253,9 @@ export default function TabsContentComponent() {
                 </a>
               </div>
             </div>
+            
+             {/* Proyecto 3 */}
+
             <div>
               <h3 className="text-xl font-bold mb-2">Experience Project: Movies API</h3>
               <p><strong>Personal Project - 2024</strong></p>
@@ -272,20 +275,12 @@ export default function TabsContentComponent() {
               </ul>
               <div className="flex space-x-4">
                 <a
-                  href="https://github.com/eduard165/movies-api"
+                  href="https://github.com/eduard165/movies-api-fastapi"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded inline-flex items-center"
                 >
                   <FaGithub className="mr-2" /> View Repository
-                </a>
-                <a
-                  href="https://movies-api-demo.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded inline-flex items-center"
-                >
-                  <FaExternalLinkAlt className="mr-2" /> Live Demo
                 </a>
               </div>
             </div>
