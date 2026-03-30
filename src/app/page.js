@@ -1,6 +1,6 @@
-import Banner from "@/components/Banner";
-import Profile from "@/components/Profile";
-import TabsContentComponent from "@/components/TabContent";
+import Banner from "@/components/layout/Banner";
+import Profile from "@/components/layout/Profile";
+import TabsContentComponent from "@/components/content/TabContent";
 
 export default function Home() {
   return (
