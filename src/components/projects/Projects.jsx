@@ -32,6 +32,13 @@ export default function Projects() {
       description: "I designed and implemented a RESTful API for managing a movie database, featuring CRUD operations with MongoDB, user authentication using JWT, and robust input validation. This project emphasizes modular architecture, scalability, and secure data handling, suitable for real-world applications.",
       technologies: ["FastAPI", "MongoDB", "Docker", "JWT", "Python", "Pytest", "Pydantic", "Uvicorn"],
       repo: "https://github.com/eduard165/movies-api-fastapi"
+    },
+     {
+      title: "Gestion de envios API",
+      fecha: "Personal project - 2026",
+      description: "Developed a REST API for managing shipments, clients, and delivery tracking using Java, Spring Boot, and PostgreSQL. The API allows managing clients, creating shipments, and tracking deliveries efficiently. JPA/Hibernate was used for database mapping and data management, ensuring clean and reliable operations.",
+      technologies: ["Java", "Spring Boot", "PostgreSQL", "JPA/Hibernate"],
+      repo: "https://github.com/eduard165/gestion-envios-api"
     }
   ];
 
