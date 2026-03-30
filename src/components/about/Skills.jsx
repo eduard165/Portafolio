@@ -1,6 +1,6 @@
 import { FaUserTie, FaComments, FaBolt, FaHeartbeat, FaLightbulb, FaSearch, FaUsers, FaReact, FaGit, FaJava, FaPython, FaJsSquare, FaDatabase, FaDocker } from 'react-icons/fa';
 import { FaTools } from "react-icons/fa";
-import { SiFirebase, SiC, SiCplusplus, SiMysql, SiMongodb,SiSpringboot, SiPostgresql } from 'react-icons/si';
+import { SiFirebase, SiC, SiCplusplus, SiMysql, SiMongodb, SiSpringboot, SiPostgresql, SiTailwindcss, SiHtml5, SiCss3, SiKotlin } from 'react-icons/si';
 
 export default function Skills() {
   return (
@@ -66,6 +66,11 @@ export default function Skills() {
           </div>
 
           <div className="flex items-center space-x-2">
+            <SiKotlin className="text-purple-500" />
+            <span>Kotlin</span>
+          </div>
+
+          <div className="flex items-center space-x-2">
             <SiSpringboot className="text-green-600" />
             <span>Spring Boot</span>
           </div>
@@ -83,6 +88,21 @@ export default function Skills() {
           <div className="flex items-center space-x-2">
             <SiCplusplus className="text-purple-500" />
             <span>C++</span>
+          </div>
+
+          <div className="flex items-center space-x-2">
+            <SiHtml5 className="text-orange-500" />
+            <span>HTML</span>
+          </div>
+
+          <div className="flex items-center space-x-2">
+            <SiCss3 className="text-blue-500" />
+            <span>CSS</span>
+          </div>
+
+          <div className="flex items-center space-x-2">
+            <SiTailwindcss className="text-blue-400" />
+            <span>Tailwind CSS</span>
           </div>
 
           <div className="flex items-center space-x-2">
